@@ -197,3 +197,9 @@ footer p{
     margin-left: 85px;
     margin-top: -20px;
 }
+.gride-continaire
+{
+    display: grid;
+    gap: 5px;
+    padding: 5px;
+}
