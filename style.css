@@ -69,7 +69,6 @@ main
 .product
 {
     padding: 20px 0;
-    text-align: center;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
@@ -78,7 +77,6 @@ main
 .products
 {
     padding: 20px 0;
-    text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 15px;
@@ -146,11 +144,41 @@ footer p{
 }
 .figcaption
  {
-    background-color: rgb(209, 217, 225);
+    background-color: rgb(231, 234, 236);
     color: rgb(14, 14, 14);
-    font-style: italic;
     padding: 2px;
     margin-top: -20px;
     width: 345px;
     margin-left: 13px;
   }
+  .border-radius{
+    border-radius: 25px;
+    background: var(--yellow-400, #FACC15);
+    width: 100px;
+    height: 39px;
+    flex-shrink: 0;
+}
+.solde
+{
+    border-left: 1px solid gray ;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.icone
+{
+    margin-top: -5px;
+}
+.icon
+{
+    margin-top: -40px;
+    margin-left: 50px;
+    color: aliceblue;
+}
+.prix2 
+{
+    color: #727169;
+}
+.prix 
+{
+    color: rgb(6, 6, 7);
+}
