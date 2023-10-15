@@ -1,0 +1,373 @@
+*{
+    /*border: 1px solid red;*/
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+} 
+.icone img
+{
+    margin-top: 10px;
+}
+
+.icone
+{
+    display: flex;
+}
+.icone input
+{
+    margin-top:15px ;
+    width: 400px;
+    height: 40px; 
+    justify-content: space-between;
+}
+
+.icone2 ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.icone2 ul li{
+    padding: 10px 5px ;
+}
+
+
+
+#InfoProduct{
+    display: grid;
+    grid-template-columns: 35% 25% 30%;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    
+
+}
+
+
+#ArtclImage img{
+    width: 100%;
+    height: 80%;
+
+}
+
+article{
+    margin: 5px;
+}
+
+#divalldiv{
+    display: flex;
+
+}
+#divalldiv div{
+    background-color: rgb(150, 34, 34);
+    width: 32em;
+    height: 40px;
+    border-radius: 5px;
+    margin: 12px;
+}
+
+
+#ProdutInfo  {
+    margin-left: 1em;
+    
+}
+#ProdutInfo p{
+        font-weight: bold;
+        margin: 5px;
+        width: 100%;
+        font-size: 14px;
+
+}
+
+.infoPro1{
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+#star11{
+    padding: 5px 10px;
+    color: white;
+    display: flex;
+        background-color: #FACC15;
+        border-radius: 50px;
+}
+
+
+.infoPro1 #star{
+    width: 4em;
+    padding: 3px 1px;
+    
+    
+}
+.infoPro1 #star img{
+    margin-left: 0.3em;
+} 
+
+#dicriptionProduct p{
+    font-weight: 100;
+}
+
+#size{
+    display: flex;
+
+}
+
+
+#size p{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 2px;
+    margin: 0.5 0.2em;
+    padding: 6px;
+    cursor: pointer;
+
+
+   
+}
+
+#size  #check{
+    border: 2px solid #FACC15;
+}
+
+#cercles {
+    display: flex;
+
+}
+#cercles div{
+    width: 20px ;
+    height: 20px;
+    border-radius: 50px;
+    margin-top: 0.4em;
+    margin-left: 0.4em;
+    cursor: pointer;
+    
+}
+
+#dd1{
+    background-color: #34D399;
+}
+
+#dd2{
+    background-color: #38BDF8;
+}
+#dd3{
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+#dd4{
+    background-color: #212223;
+}
+
+#Ship1 , #Ship2{
+    padding: 5px ;
+    border-bottom: 1px solid black;
+
+}
+
+#headeLocal{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 5px ;
+    align-items: center;
+    
+
+}
+
+
+#artcl3{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 2px;
+    background-color: #F1F5F9;
+    opacity: 0.8;
+}
+#headeLocal #location{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+ 
+
+}
+
+
+#headeLocal #location img{
+    width: 18px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+
+#Ship1{
+    border-bottom: 1px solid black;
+
+}
+
+#ADD_Y{
+    display: flex;
+
+}
+#btn button{
+    width: 99%;
+    margin: 5px 2px;
+    height: 35px;
+    border-radius: 2px;   
+    font-weight: bold;    
+}
+#btn1{
+    background-color: #34D399;
+    color: white;
+    border: none;
+
+    
+}
+
+#btn2{
+    background-color: #ffffff;
+    border: 2px solid #34D399;
+}
+#btn{
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+#message-share{
+    display: flex;
+    justify-content: space-between;
+}
+
+#message-share div{
+    display: flex;
+    margin: 5px 10px ;
+}
+
+#message-share div img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#ADD_Y p{
+    padding: 5px;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;    
+    margin: 5px 0px;
+}
+.para1{
+    font-weight: bold;
+}
+#moin{
+    background-color:#CFCFCF ;
+}
+
+#plus{
+    background-color:#eeede8 ;
+    color: white;
+
+}
+
+
+footer{
+    width: 100%;
+    display: flex;
+    /*centrer le contenu*/
+    justify-content: center;
+    /*pour poser le contenu sous forme colone*/
+    flex-direction: column;
+    align-items: center;
+    background-color: #334155;
+   padding: 30px;
+
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+
+}
+footer ul li{
+    padding: 10px 20px;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer p{
+    color: white;
+    user-select: none;
+    justify-content:center;
+}
+.border-radius{
+    border-radius: 20px;
+    background: var(--yellow-400, #FACC15);
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    
+}
+.icone
+{
+    margin-left: 10px;
+}
+.icon
+{
+    margin-bottom: 20px;
+    margin-top: -32px;
+    margin-left: 40px;
+    color: aliceblue;
+    font-size: 23px;
+}
+#textProduct{
+    padding: 0px 10px;
+    display: grid;
+    grid-template-columns: 90vw;
+}
+
+
+#textProduct p{
+    text-align: justify;
+}
+
+section{
+    justify-content: center;
+}
+#textProductwithImage{
+    display: grid;
+    grid-template-columns: 65vw 25vw;
+    padding: 0px 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+#artclImage img{
+    width: 100%;
+}
+.products
+{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 15px;
+
+}
+.solde
+{
+    border-left: 1px solid gray ;
+    margin-left: 7px;
+    margin-top: 10px;
+    font-size: 20px;
+}
