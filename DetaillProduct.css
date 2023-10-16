@@ -371,3 +371,17 @@ section{
     margin-top: 10px;
     font-size: 20px;
 }
+.figcaption
+ {
+    background-color: rgb(231, 234, 236);
+    color: rgb(14, 14, 14);
+    padding: 2px;
+    margin-top: -20px;
+    width: 345px;
+    margin-left: 13px;
+  }
+  .shopping
+{
+    margin-left: 95px;
+    margin-top: -5px;
+}
