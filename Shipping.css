@@ -33,18 +33,18 @@ header{
     padding: 10px 5px ;
 }
 ----------
-#main{
+.main{
     
     align-items: start;
     justify-content: center;
     margin-bottom: 30px;
 }
-#tableu{
+.tableu{
     display: flex;
     display: grid;
     grid-template-columns: 60% 30%;
     flex-direction: column;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
 
 }
 
@@ -55,7 +55,7 @@ header{
 
 }
 
-#divHeader div{
+.Head div{
     display: flex;
     justify-content: start;
     padding: 10px;
@@ -83,25 +83,26 @@ header{
 
 }
 
-#divLeft{
+#gauche{
     display: flex;
     padding: 10px 5px;
    
 }
 
-#divRight #del img{
+#droit #del img{
     width: 30px;
     height: 30px;
     padding: 5px;
    
 }
 /*les boutton - et +*/
-#add-u{
+.plusmoin
+{
     display: flex;
 
 }
 /*lordre des boutton - et +*/
-#add-u p{
+.plusmoin p{
     padding: 5px;
     width: 20px;
     height: 20px;
@@ -112,12 +113,12 @@ header{
     
 }
 
-#P1{
+.moin{
     background-color: #CFCFCF;
     color: white;
 }
 
-#P3{
+.plus{
     background-color:#FACC15;
     color: white;
 }
@@ -133,9 +134,10 @@ header{
     width: 90%;
 }
 #secDetails{
-    margin-left: 3em;
+    margin-left:80px ;
+    margin-top: 111px;
     width: 80%;
-    border: 1px solid black;
+   border: 0.5px solid rgb(130, 124, 124);
     
 }
 
@@ -145,18 +147,18 @@ header{
 
 }
 
-#Shipping{
-    border-bottom: 1px solid black;
+.Shipping{
+    border-bottom: 0.5px solid rgb(174, 163, 163);
     padding: 10px 10px;
 }
 
-#detailsPrice{
+.Prix{
     padding: 10px 10px;
 }
-#detailsPrice div{
+.Prix div{
     margin-bottom: 20px;
 }
-#detailsPrice button{
+.Prix button{
     width: 100%;
     border: none;
     padding: 10px 0px;
