@@ -47,7 +47,7 @@ header{
 }
 
 
-#ArtclImage img{
+.Image img{
     width: 100%;
     height: 80%;
 
@@ -70,11 +70,11 @@ article{
 }
 
 
-#ProdutInfo  {
+.ProdutInfo1  {
     margin-left: 16px;
     
 }
-#ProdutInfo p{
+.ProdutInfo1 p{
         font-weight: bold;
         margin: 5px;
         width: 100%;
@@ -82,7 +82,7 @@ article{
 
 }
 
-.infoPro1{
+.infoPro2{
     width: 100%;
     justify-content: space-evenly;
     
@@ -96,13 +96,13 @@ article{
 }
 
 
-.infoPro1 #star{
+.infoPro2 #star{
     width: 64;
     padding: 3px 1px;
     
     
 }
-.infoPro1 #star img{
+.infoPro2 .icone img{
     margin-left: 16px;
 } 
 
@@ -121,21 +121,15 @@ article{
     text-align: center;
     border-radius: 2px;
     padding: 6px;
-    
-
-
-   
 }
 
-#size  #check{
-    border: 2px solid #d8af09;
-}
 
-#cercles {
+
+.cercles {
     display: flex;
 
 }
-#cercles div{
+.cercles div{
     width: 20px ;
     height: 20px;
     border-radius: 50px;
@@ -173,30 +167,6 @@ article{
     
 
 }
-
-
-#artcl3{
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px 2px;
-    background-color: #F1F5F9;
-    opacity: 0.8;
-}
-#headeLocal #location{
-    display: flex;
-    padding: 5px;
-    align-items: center;
- 
-
-}
-
-
-#headeLocal #location img{
-    width: 18px;
-    height: 15px;
-    margin-right: 5px;
-}
-
 
 #Ship1{
     border-bottom: 1px solid black;
@@ -315,12 +285,14 @@ footer p{
 }
 .icone
 {
-    margin-left: 10px;
+    margin-left: -4px;
+    margin-top: -3px;
+   
 }
 .icon
 {
     margin-bottom: 20px;
-    margin-top: -32px;
+    margin-top: -30px;
     margin-left: 40px;
     color: aliceblue;
     font-size: 23px;
