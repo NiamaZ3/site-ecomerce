@@ -34,14 +34,15 @@ header{
 }
 ----------
 #main{
-    display: grid;
-    grid-template-columns: 60% 30%;
+    
     align-items: start;
     justify-content: center;
     margin-bottom: 30px;
 }
-#tableau{
+#tableu{
     display: flex;
+    display: grid;
+    grid-template-columns: 60% 30%;
     flex-direction: column;
     border: 1px solid black;
 
@@ -78,7 +79,7 @@ header{
 }
 
 #dvImage1 input{
-    margin-right: 1em;
+    margin-right: 16px;
 
 }
 
@@ -92,14 +93,14 @@ header{
     width: 30px;
     height: 30px;
     padding: 5px;
-    opacity: 0.4;
+   
 }
-
+/*les boutton - et +*/
 #add-u{
     display: flex;
 
 }
-
+/*lordre des boutton - et +*/
 #add-u p{
     padding: 5px;
     width: 20px;
