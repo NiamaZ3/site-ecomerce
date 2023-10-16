@@ -35,7 +35,7 @@ header{
 
 
 
-#InfoProduct{
+.ttProduct{
     display: grid;
     grid-template-columns: 35% 25% 30%;
     justify-content: center;
@@ -63,7 +63,7 @@ article{
 }
 #divalldiv div{
     background-color: rgb(150, 34, 34);
-    width: 32em;
+    width: 200px;
     height: 40px;
     border-radius: 5px;
     margin: 12px;
@@ -71,7 +71,7 @@ article{
 
 
 #ProdutInfo  {
-    margin-left: 1em;
+    margin-left: 16px;
     
 }
 #ProdutInfo p{
@@ -97,13 +97,13 @@ article{
 
 
 .infoPro1 #star{
-    width: 4em;
+    width: 64;
     padding: 3px 1px;
     
     
 }
 .infoPro1 #star img{
-    margin-left: 0.3em;
+    margin-left: 16px;
 } 
 
 #dicriptionProduct p{
@@ -120,16 +120,15 @@ article{
     border: 1px solid black;
     text-align: center;
     border-radius: 2px;
-    margin: 0.5 0.2em;
     padding: 6px;
-    cursor: pointer;
+    
 
 
    
 }
 
 #size  #check{
-    border: 2px solid #FACC15;
+    border: 2px solid #d8af09;
 }
 
 #cercles {
@@ -140,9 +139,8 @@ article{
     width: 20px ;
     height: 20px;
     border-radius: 50px;
-    margin-top: 0.4em;
-    margin-left: 0.4em;
-    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 8px;
     
 }
 
@@ -160,7 +158,7 @@ article{
     background-color: #d6d64d;
 }
 
-#Ship1 , #Ship2{
+.Ship1 , .Ship2 {
     padding: 5px ;
     border-bottom: 1px solid black;
 
@@ -263,11 +261,11 @@ article{
 .para1{
     font-weight: bold;
 }
-#moin{
+.moin{
     background-color:#CFCFCF ;
 }
 
-#plus{
+.plus{
     background-color:#eeede8 ;
     color: white;
 
@@ -330,7 +328,7 @@ footer p{
 #textProduct{
     padding: 0px 10px;
     display: grid;
-    grid-template-columns: 90vw;
+    grid-template-columns: 90%;
 }
 
 
@@ -343,7 +341,7 @@ section{
 }
 #textProductwithImage{
     display: grid;
-    grid-template-columns: 65vw 25vw;
+    grid-template-columns: 65% 25%;
     padding: 0px 10px;
     border-bottom: 1px solid black;
     padding-bottom: 20px;
