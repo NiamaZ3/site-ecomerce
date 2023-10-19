@@ -65,39 +65,6 @@ footer p{
     user-select: none;
     justify-content:center;
 }
-form input
-{
-   border: 1px solid #ccc;
-  border-radius: 4px;
-}
-form label, form input 
-{
-    display: block;
-    margin-bottom: 20px;
-    width: 50%;
-    display: flex;
-    
-}
-
-form textarea {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    height: 150px;
-    width: 45%;
-}
-form button {
-    background-color: hsl(51, 62%, 54%);
-    color: #fff;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-color: black;
-    width: 7%;
-    display: flex;
-    margin-left: 44%;
-    margin-top: 10px;
-    border: 1px solid #151414;
-    border-radius: 4px;
-}
 .text1
 {
     margin-top: 20px;
@@ -108,28 +75,56 @@ form button {
 .ligne
 {
    display: flex;
-   margin-left: 25px;
+   /* margin-left: 25px; */
+   justify-content: space-around;
 }
 .text2
 {
     margin-left: 46%;
     padding: 10px;
 }
-.parti1
+
+
+.ordre
 {
-    padding: 40px;
-    margin-left: 450px;
-    width: 60%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
 }
-.parti2
-{
-    padding: 0px;
-    margin-left: 490px;
-    margin-top: -50px;
-    width: 60%;
-}
-.parti3
-{
-    margin-left: 490px;
+ 
+.left form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
 }
 
+.left form input ,.left form textarea {
+    height: 30px;
+    border-radius: 2px;
+    resize: none;
+    padding: 5px ;
+    font-size: 15px;
+    
+}
+
+.left form textarea{
+    height: 100px;
+}
+
+
+#btnSub{
+    border: none;
+    width: 100px;
+    background-color: yellow;
+}
+article img
+{
+    width: 100%;
+}
