@@ -1,4 +1,4 @@
-
+var increment = 0;
 
 // Get all "moin" and "plus" elements
 var moinElements = document.querySelectorAll('.moin');
@@ -28,3 +28,20 @@ plusElements.forEach(function (element) {
     });
 }
 );
+//afficher panier 
+function listeafficher()
+{
+    var liste = document.getElementById("liste");
+    if(liste.style.display == 'none'){
+        liste.style.display = "block"
+    }
+    else
+    liste.style.display = "none";
+}
+//fonction d'incrementation
+function Incrementatation()
+{
+    increment ++;
+    document.getElementById("NrProduct").innerHTML= increment;
+
+}

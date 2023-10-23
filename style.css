@@ -207,7 +207,17 @@ footer p{
     gap: 5px;
     padding: 5px;
 }
-@media (max-width:770px){
+#liste
+{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    background-color: red;
+    right: 0px;
+   display: none;
+}
+
+/* @media (max-width:770px){
     header{
         display: flex;
         justify-content: center;
@@ -217,4 +227,4 @@ footer p{
     }
 
 
-}
+} */
