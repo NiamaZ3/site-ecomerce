@@ -82,9 +82,8 @@ footer p{
 {
     margin-left: 46%;
     padding: 10px;
+    font-size: large;
 }
-
-
 .ordre
 {
     display: grid;
@@ -104,7 +103,6 @@ footer p{
     gap: 10px;
     
 }
-
 .left form input ,.left form textarea {
     height: 30px;
     border-radius: 2px;
@@ -123,7 +121,7 @@ footer p{
     border: none;
     width: 100px;
     background-color: #FACC15;
-    
+
 }
 article img
 {
