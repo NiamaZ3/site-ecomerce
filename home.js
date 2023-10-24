@@ -23,12 +23,12 @@ plusElements.forEach(function (element) {
         var Num = element.parentElement.querySelector('.Num');
         var value = parseInt(Num.textContent);
         Num.textContent = value + 1;
-         Price += 1900 ;
-        document.getElementById("Total").innerHTML ="$ " + Price ;
+         Price += 1900;
+        document.getElementById("Total").innerHTML ="$ " + Price;
     });
 }
 );
-//afficher panier 
+//afficher panier
 function listeafficher()
 {
     var liste = document.getElementById("liste");
