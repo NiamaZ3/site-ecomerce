@@ -4,31 +4,31 @@ function myFunction() {
 
     Panier.insertAdjacentHTML("afterend" ,
      `<article id="artct2Page4">
-    <div id="gauche">
-        <div id="dvImage1">
-            <img src="Rectangle.png" alt="" srcset="">
-        </div>
-        <div>
-            <h3>Product Name</h3>
-            
-           <h3>$ 1900</h3>
-           </div>
-        </div>
+     <div id="gauche">
+         <div id="dvImage1">
+       <img src="Rectangle.png" alt="" srcset="">
+         </div>
+         <div>
+             <h3>Product Name</h3>
+             <h3 id="Total>$ 1900</h3>
+            </div>
 
-        <div id="droit">
-        <div id="del">
-            <img src="icons8-j'aime-ça-24.png" alt="" srcset="">
-            <img src="icons8-supprimer-24.png" alt="" srcset="">
-        </div>
-        <div class="plusmoin">
-            <p class="moin">-</p>
-            <p class="Num">1</p>
-            <p class="plus">+</p>
-        </div>
-    </div>
- </article>
+     </div>
+         <div id="droit">
+         <div id="del">
+             <img src="icons8-j'aime-ça-24.png" alt="" srcset="">
+             <img src="icons8-supprimer-24.png" alt="" srcset="">
+         </div>
+         <div class="plusmoin">
+             <p class="moin">-</p>
+             <p class="Num">1</p>
+             <p class="plus">+</p>
+
+         </div>
+     </div>
+  </article>
 `
-    );
+);
   }
 
 
