@@ -89,6 +89,7 @@ main img
     grid-row-gap: 15px;
     margin: 0px 30px;
     box-sizing: content-box;
+
     overflow-x: scroll;
     white-space: nowrap;
 

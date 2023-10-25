@@ -123,7 +123,6 @@ footer p{
     border: none;
     width: 100px;
     background-color: #FACC15;
-
 }
 article img
 {
@@ -139,16 +138,20 @@ article img
         align-items: center;
         width: 100vw;
     } 
-    .Contact
-    {
-        justify-content: center;
-       
-    }
+    
     .ordre
     {
     grid-template-columns: 100%;
     flex-wrap: wrap;
     gap: 10px; 
+    width: 97%;
+    align-items: center;
+    justify-content: center;
     }
-
+    .text1
+    {
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
