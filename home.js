@@ -1,8 +1,5 @@
 
 function myFunction() {
-    
-    
-
 }
 
 var increment = 1;
@@ -107,6 +104,9 @@ const Panier = document.getElementById("produitQuiAjouter");
 `
 );
 }
+
+// Fonction de validation
+
 
 
  

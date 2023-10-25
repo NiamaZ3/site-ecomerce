@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,63 +9,113 @@
     <title>Document</title>
 
 </head>
+
 <body>
     <header>
-            <div class="icone">
-                <img src="icons8-amazone-48.png">
-                <input type="text" placeholder="Chercher un produit, une marque ou une catéguorie...">
+        <div class="icone">
+            <img src="icons8-amazone-48.png">
+            <input type="text" placeholder="Chercher un produit, une marque ou une catéguorie...">
 
-            </div>
-            <div class="icone2">
-                    <ul>
-                        <li><a>Sing In</a></li>
-                        <li><a>Create account</a></li>
-                        <li><img src="icons8-maroc-48 (1).png"></li>
-                        <li><p>MAR</p></li>
-                        <li onclick="Afficherpanier()"><img src="icons8-panier-30.png" alt="" srcset=""></li>
-                        <li><h3 id="NrProduct">0</h3></li> 
-                    </ul> 
-            </div>
+        </div>
+        <div class="icone2">
+            <ul>
+                <li><a>Sing In</a></li>
+                <li><a>Create account</a></li>
+                <li><img src="icons8-maroc-48 (1).png"></li>
+                <li>
+                    <p>MAR</p>
+                </li>
+                <li onclick="Afficherpanier()"><img src="icons8-panier-30.png" alt="" srcset=""></li>
+                <li>
+                    <h3 id="NrProduct">0</h3>
+                </li>
+            </ul>
+        </div>
     </header>
     <hr>
     <main>
-            <section>
-                
-                <div class="Contact">
+        <section>
 
-                    <div class="text1"><h3>Contact us</h3></div>
-                   <div class="ligne">
+            <div class="Contact">
+
+                <div class="text1">
+                    <h3>Contact us</h3>
+                </div>
+                <div class="ligne">
                     <hr size="1px" width="95%" align="" color="black">
-                    </div>
-                    <div class="text2"> We need to help</div>
-                </div> 
+                </div>
+                <div class="text2"> We need to help</div>
+            </div>
 
-            </section>
-                <section class="ordre">
-                    <article>
-                        <img src="contact.jpg" alt="image">
-                    
-                    </article>
-                    
-                <article class="left">
-                    <form id="monformulaire">
-                        <input type="text" placeholder="Nom" required>
-                        <input type="text" placeholder="Preom" required>
-                        <textarea cols="30" rows="10" placeholder="Message"></textarea>
-                        <input id="btnSub" type="submit" value="Envoyer">
-                    </form>
-                </article>
-            </section>
+        </section>
+        <section class="ordre">
+            <article>
+                <img src="contact.jpg" alt="image">
+
+            </article>
+
+            <article class="left">
+                <form id="monformulaire">
+                    <label for="name">Nom :</label>
+                        <input type="text" id="nom" name="name" placeholder="Entrer votre Nom" >
+
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Entrer votre Prénom" >
+                    <label for="message">Message :</label>
+                    <textarea name="message" placeholder="Ajoutez votre commentaires"></textarea>
+                    <input id="btnSub" type="submit" value="Envoyer">
+                </form>
+                <div id="message" style="color: red;"></div>
+            </article>
+        </section>
     </main>
-<footer>
+    <footer>
         <ul>
-                <a href=""><li>About</li></a>
-                <a href=""><li>Support</li></a>
-                <a href=""><li>FQA</li></a>
+            <a href="">
+                <li>About</li>
+            </a>
+            <a href="">
+                <li>Support</li>
+            </a>
+            <a href="">
+                <li>FQA</li>
+            </a>
         </ul>
         <p> @ copy right 2023 </p>
     </footer>
-    
-    </body>
-    </html>
-    
+    <script >
+        var nomInput = document.getElementById("nom");
+var prenomInput = document.getElementById("prenom");
+var message = document.getElementById("message");
+
+nomInput?.addEventListener("input", function () {
+    validateNom();
+});
+prenomInput?.addEventListener("input", function () {
+    validatePrenom();
+});
+ 
+function validateNom() {
+    var nom = nomInput.value;
+    var nomRegex = /^[A-Za-z\s]+$/;
+    if (!nom.match(nomRegex)) {
+        message.innerHTML = "Le nom doit contenir uniquement des lettres e.";
+    } else {
+        message.innerHTML = "";
+    }
+}
+function validatePrenom() {
+    var prenom = prenomInput.value;
+    var prenomRegex = /^[A-Za-z\s]+$/;
+    if (!prenom.match(prenomRegex)) {
+        message.innerHTML = "Le prénom doit contenir uniquement des lettres ";
+    } else {
+        message.innerHTML = "";
+    }
+}
+
+
+    </script>
+</body>
+
+</html>
