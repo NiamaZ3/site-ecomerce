@@ -177,7 +177,9 @@ header{
     margin-left: 32px;
 }
 footer{
+    margin-top: 2em;
     width: 100%;
+    box-sizing: border-box;
     display: flex;
     /*centrer le contenu*/
     justify-content: center;
@@ -253,4 +255,26 @@ footer p{
     
 
 }
+@media (max-width:1200px)
+{
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    } 
+    /* .Head
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0px;
+    } */
+    .tableu
+    {
+        grid-template-columns: 100%;
+    }
 
+
+}

@@ -399,12 +399,9 @@ section{
         align-items: center;
         flex-wrap: wrap;
         gap: 12px;
-
-        
     }
     .figcaption
     {
         margin-left: 0px;
-
     }
 }
